@@ -1,0 +1,195 @@
+html {
+    background: url("./images/youtube.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+.steps {
+    position: relative;
+    height: 60px;
+    width: 300px;
+    background-color: #b91d1d;
+    border-radius: 69px;
+    top: 30px;
+    left: 30px;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 33px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    position: relative;
+    left: 30px;
+}
+
+.inst-1 {
+    position: relative;
+    height: 5px;
+    width: 600px;
+    color: white;
+    top: 25px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.inst-2 {
+    position: relative;
+    height: 10px;
+    width: relative;
+    color: white;
+    top: 45px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+    flex-direction: row;
+    display: flex;
+}
+
+.img-1 {
+    position: relative;
+    width: 1025px;
+    height: 156.78px;
+    left: 40px;
+    top: 110px;
+    background: url("./images/www.png");
+}
+
+.img-2 {
+
+    position: relative;
+    width: 1025px;
+    height: 156.78px;
+    bottom: 40px;
+    left: 40px;
+    top: 160px;
+    background: url("./images/music.png");
+
+}
+
+.inst-3 {
+    position: relative;
+    height: 50px;
+    width: relative;
+    left: 40px;
+    color: white;
+    top: 90px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+
+
+.inst-4 {
+    position: relative;
+    height: 50px;
+    width: 500px;
+    color: white;
+    top: 200px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.inst-5 {
+    position: relative;
+    height: 100px;
+    width: 500px;
+    color: white;
+    top: 215px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.inst-6 {
+    position: relative;
+    height: 50px;
+    width: 500px;
+    color: white;
+    top: 150px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.inst-7 {
+    position: relative;
+    height: 50px;
+    width: 500px;
+    color: white;
+    top: 140px;
+    bottom: 30px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+    display: flex;
+}
+
+
+.inst-8 {
+    position: relative;
+    height: 0px;
+    width: 500px;
+    color: white;
+    top: 160px;
+    left: 40px;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+.img-3 {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: -250px;
+    left: 650px;
+    background: url(./images/toadd.png);
+}
+
+.back_btn {
+    position: relative;
+    background-color: #b91d1d;
+    font-family: 'Poppins';
+    width: 150px;
+    height: 50px;
+    left: 100px;
+    border-radius: 69px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    color:#1b1b1b;
+}
+
+.back_btn:hover{
+    transform: scale(1.05);
+}
+
+.back_text{
+    position: relative;
+    left: 40px;
+    top: 4px;
+}
+
+.back_text:link{
+    color:#1b1b1b;
+    text-decoration: none;
+}
+.back_text:visited{
+    color:#1b1b1b;
+    text-decoration: none;
+}
+.back_text:hover{
+    color:#1b1b1b;
+    text-decoration: none;
+
+}
